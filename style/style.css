@@ -1,3 +1,223 @@
-style{
-    image width: auto;
-}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    line-height: 25px;
+  }
+  
+  .nav :nth-child(1) {
+    font-weight: 700;
+  }
+  
+  .nav {
+    margin: 20px 0px;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .resume {
+    border: 2px solid lightgray;
+    padding: 10px 30px;
+    border-radius: 10px;
+  }
+  
+  .hero {
+    background-image: url("../images/assets/Hero-bg.png");
+    background-repeat: no-repeat;
+  }
+  
+  .hero > h1,
+  p {
+    margin: 20px 0px;
+    text-align: center;
+  }
+  
+  .dev {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dev img {
+    margin-top: 20px;
+    width: 200px;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact button {
+    margin-bottom: 20px;
+    background: #000;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+  }
+  
+  .faq {
+    background: #eeeeee;
+    margin: 20px 100px;
+    padding: 30px;
+  }
+  
+  .faq > div > h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .faq-child {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .faq-child:nth-child(even) {
+    flex-direction: row-reverse;
+    background-color: rgb(238, 238, 238);
+  }
+  
+  .learn-more {
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-weight: 700;
+    background-color: inherit;
+  }
+  
+  .inspiration h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .i-frame {
+    display: flex;
+    justify-content: center;
+  }
+  
+  iframe {
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    margin: 50px 0;
+  }
+  
+  .current-target h2 {
+    text-align: center;
+  }
+  
+  .current-target-child {
+    margin: 30px 200px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .current-target-child a {
+    text-decoration: underline;
+  }
+  
+  .html {
+    background-color: rgb(255, 222, 222);
+  }
+  
+  .css {
+    background-color: rgb(224, 223, 255);
+  }
+  
+  .js {
+    background-color: rgb(255, 253, 226);
+  }
+  
+  .html,
+  .css,
+  .js {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .next-target {
+    margin: 100px;
+  }
+  
+  .next-target h2 {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .next-target-child {
+    border: 1px solid lightgray;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 1px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .next-target-child img {
+    margin: 0 20px;
+  }
+  
+  .next-target-child a {
+    text-decoration: underline;
+  }
+  .support {
+    background-image: url("../images/assets/handshake.jpg");
+    margin: 50px 100px;
+    background-repeat: no-repeat;
+    padding: 50px;
+    border-radius: 20px;
+  }
+  
+  .support h2,
+  p {
+    text-align: center;
+  }
+  
+  .t-white {
+    color: white;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    row-gap: 20px;
+  }
+  
+  .box input {
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    max-width: 400px;
+  }
+  
+  .box button {
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  footer {
+    margin: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer img {
+    width: 30px;
+    margin: 5px;
+  }
